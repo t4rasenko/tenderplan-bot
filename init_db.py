@@ -13,7 +13,7 @@ def init_db():
                 PRIMARY KEY (tg_user_id, tender_key)
             )
         """)
-
+        
         # Проверка на наличие столбца tender_name (если запускаешь повторно)
         cursor.execute("PRAGMA table_info(user_keys)")
         columns = [row[1] for row in cursor.fetchall()]

@@ -11,6 +11,7 @@ HEADERS = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
 }
+
 session = requests.Session()
 session.headers.update(HEADERS)
 # ─── Справочник статусов внутри кода ───────────────────────────────────

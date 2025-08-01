@@ -13,7 +13,6 @@ from urllib3.exceptions import InsecureRequestWarning
 from kladr_dict import KLADR_CODES
 from config import TOKEN
 from config import TEMPLATE_PATH
-
 # ─── Справочник статусов внутри кода ───────────────────────────────────
 STATUS_LOOKUP = {
     1: "Прием заявок",
